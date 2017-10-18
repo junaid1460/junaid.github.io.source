@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pug":"cd src;pug -O \"{'doctype':'html'}\" -P --watch *"
+    "pug":"cd src;pug -O \"{'doctype':'html'}\" -P --watch *",
+    "pugonce":"cd src;pug -O \"{'doctype':'html'}\" -P *"
   },
   "private": true,
   "dependencies": {
