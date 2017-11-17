@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && cd ../build && git init && git remote add github https://github.com/junaid1460/junaid1460.github.io && git add . && git commit -m \"init\" && git push github master -f",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
