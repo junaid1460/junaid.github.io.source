@@ -2,8 +2,8 @@
     background: white;
     width: 400px;
     height: 100vh;
-    box-shadow: 0 0 40px black;
-    z-index: 100
+    box-shadow: 0 0 40px gainsboro;
+    z-index: 100;
 }
 .container{
     width:100vw;
@@ -20,10 +20,10 @@
     justify-content: center;
     flex-direction: column;
     color: white;
+    background: #f1f1f1
 }
 .main .profile{
     padding: 25px;
-    background: #f44336;
     display: flex;
     align-content: center;
     align-items: center;
@@ -31,7 +31,8 @@
     flex-direction: column;
     border-radius: 2px;
     transition: all 0.6s ease-in-out;
-    box-shadow:0 0 1111px black;
+    box-shadow:0 0 1111px #828282;
+    background: linear-gradient(45deg, #F44336, #E91E63);
 }
 .profile:hover{
     background: #3F51B5;
@@ -58,7 +59,9 @@
     flex-direction: row;
     text-decoration: none;
     color: black;
-    align-items: center
+    align-items: center;
+    border-radius: 2px;
+    margin: 10px;
     /* width: 100% */
 }
 .list .item .content{
@@ -72,10 +75,10 @@
     font-weight: 100;
 }
 .list .item .style{
-    width:20px;
+    width: 20px;
     height: 20px;
     border-radius: 100px;
-    background: #f44336;
+    background: #1b1b1b;
 }
 .list .item:hover{
     background: #e8e8e8;
@@ -99,4 +102,12 @@
         width: 100vw;
 
     }
+}
+
+.profile-image {
+    background-image: url(/assets/pp.jpg);
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    background-size: cover;
 }
